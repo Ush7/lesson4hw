@@ -1,0 +1,80 @@
+.background-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: -1;
+}
+@media() {
+  .background-video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+ul {
+  list-style-type: none;
+}
+.heading-section {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.todayicon {
+  font-size: 84px;
+  text-align: center;
+}
+.todaycolumn1 {
+  text-align: left;
+}
+.current-temp {
+  color: rgb(32, 33, 36);
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 1;
+}
+.degree {
+  position: relative;
+  top: -50px;
+}
+.todaycolumn2 {
+  text-align: left;
+  position: relative;
+  left: -300px;
+}
+
+h4 {
+  text-align: left;
+  padding-left: 30px;
+}
+.card.day-section {
+  height: 220px;
+  width: 180px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.boundry-daycontent {
+  padding-bottom: 20px;
+  font-size: 18px;
+  border-radius: 1px solid grey;
+}
+.day-content {
+  text-align: center;
+  padding-left: 0px;
+}
+
+.forecast-icon {
+  font-size: 34px;
+  padding: 20px, auto;
+}
+.boundrybox {
+  padding-bottom: 20px;
+}
+.weatherbox {
+  width: 90%;
+  padding-top: 50px;
+  opacity: 0.75;
+}
+#high,
+#low {
+}
